@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayush | Data Science Student</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#07111f;color:#eef6ff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(7,17,31,.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{max-width:1100px;margin:auto;padding:18px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800;color:#62d9ff}.links{display:flex;gap:24px;font-size:14px}.links a:hover{color:#62d9ff}
+section{max-width:1100px;margin:auto;padding:95px 22px 45px}
+.hero{min-height:100vh;display:flex;align-items:center;gap:45px;padding-top:110px}
+.hero h1{font-size:clamp(42px,7vw,76px);line-height:1.05;margin:15px 0}
+.gradient{background:linear-gradient(90deg,#62d9ff,#9b7cff);-webkit-background-clip:text;color:transparent}
+.badge{display:inline-block;padding:8px 14px;border:1px solid rgba(98,217,255,.35);border-radius:999px;color:#9ee9ff;background:rgba(98,217,255,.07)}
+.hero p{max-width:650px;color:#b6c5d7;font-size:18px}
+.buttons{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:13px 21px;border-radius:12px;font-weight:700;border:1px solid rgba(255,255,255,.15);background:#13243a}
+.btn.primary{background:linear-gradient(90deg,#35c8f2,#7f6cff);border:0}
+.avatar{width:270px;height:270px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#8ce9ff,#5367ff 48%,#171b45);box-shadow:0 0 70px rgba(65,196,255,.25);font-size:72px;font-weight:800;flex:none}
+h2{font-size:36px;margin-bottom:10px}.sub{color:#9dafc3;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#0c1b2e;border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:24px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:rgba(98,217,255,.35)}
+.card h3{margin-bottom:8px}.card p,.card li{color:#aebed0}.card ul{padding-left:20px}
+.skill{margin:12px 0}.skill span{display:flex;justify-content:space-between;font-size:14px;color:#cbd7e4}.bar{height:8px;background:#172a42;border-radius:10px;overflow:hidden;margin-top:7px}.bar i{display:block;height:100%;background:linear-gradient(90deg,#35c8f2,#8a75ff)}
+.timeline{border-left:2px solid #28415d;padding-left:24px}.timeline .card{margin-bottom:18px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+footer{text-align:center;padding:35px;color:#71849a;border-top:1px solid rgba(255,255,255,.08)}
+@media(max-width:750px){.links{display:none}.hero{flex-direction:column;text-align:center;justify-content:center}.hero p{font-size:16px}.avatar{width:190px;height:190px;font-size:52px}.grid,.contact{grid-template-columns:1fr}section{padding-top:85px}}
+</style>
+</head>
+<body>
+<nav><div class="nav"><div class="logo">AYUSH.</div><div class="links">
+<a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#goals">Goals</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+</div></div></nav>
+
+<section class="hero" id="home">
+<div>
+<span class="badge">B.Tech Data Science Student</span>
+<h1>Hello, I'm <span class="gradient">Ayush</span>.</h1>
+<p>I’m a passionate Data Science student building my foundation in programming, data, artificial intelligence and problem-solving. This is my personal space on the web.</p>
+<div class="buttons"><a class="btn primary" href="#about">Explore My Profile</a><a class="btn" href="#contact">Contact Me</a></div>
+</div>
+<div class="avatar">A</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2><p class="sub">A little introduction</p>
+<div class="grid">
+<div class="card"><h3>👨‍💻 Who I Am</h3><p>I am a B.Tech Data Science student interested in technology, programming, analytics and artificial intelligence.</p></div>
+<div class="card"><h3>📚 What I’m Learning</h3><p>Currently developing my skills in C programming, SQL, DBMS, mathematics, AI/ML and data analytics.</p></div>
+<div class="card"><h3>🚀 My Mindset</h3><p>I believe in learning step by step, improving consistently and turning knowledge into practical projects.</p></div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2><p class="sub">My academic journey</p>
+<div class="timeline">
+<div class="card"><h3>B.Tech — Data Science</h3><p>Currently pursuing my undergraduate degree and building a strong foundation for a career in Data Science and technology.</p></div>
+<div class="card"><h3>Class 12 — UP Board</h3><p>Completed higher secondary education with a focus on preparing for an engineering career.</p></div>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2><p class="sub">Technologies and areas I’m developing</p>
+<div class="grid">
+<div class="card"><h3>💻 Programming</h3><div class="skill"><span>C Programming <b>Learning</b></span><div class="bar"><i style="width:65%"></i></div></div><div class="skill"><span>Problem Solving <b>Learning</b></span><div class="bar"><i style="width:55%"></i></div></div></div>
+<div class="card"><h3>📊 Data</h3><div class="skill"><span>SQL <b>Learning</b></span><div class="bar"><i style="width:55%"></i></div></div><div class="skill"><span>Data Analytics <b>Learning</b></span><div class="bar"><i style="width:45%"></i></div></div></div>
+<div class="card"><h3>🤖 AI / ML</h3><div class="skill"><span>Artificial Intelligence <b>Learning</b></span><div class="bar"><i style="width:50%"></i></div></div><div class="skill"><span>Machine Learning <b>Learning</b></span><div class="bar"><i style="width:40%"></i></div></div></div>
+</div>
+</section>
+
+<section id="goals">
+<h2>My Goals</h2><p class="sub">Where I want to go</p>
+<div class="grid">
+<div class="card"><h3>🎯 Short-Term</h3><p>Build strong fundamentals, perform well in college and become confident in programming and communication.</p></div>
+<div class="card"><h3>📈 Career</h3><p>Develop industry-ready skills in Data Science, analytics, SQL, Python and machine learning.</p></div>
+<div class="card"><h3>🌟 Long-Term</h3><p>Build meaningful projects, gain professional experience and start a successful career in technology.</p></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2><p class="sub">My learning journey will appear here</p>
+<div class="grid">
+<div class="card"><h3>🌐 Personal Portfolio</h3><p>This responsive website — designed as my digital introduction and portfolio.</p></div>
+<div class="card"><h3>📊 Coming Soon</h3><p>Data analytics project will be added as I build my skills.</p></div>
+<div class="card"><h3>🤖 Coming Soon</h3><p>AI/ML project will be added after completing the required fundamentals.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Let's Connect</h2><p class="sub">Have a project, idea or opportunity? Reach out.</p>
+<div class="contact">
+<div class="card"><h3>📧 Email</h3><p>Add your email here</p></div>
+<div class="card"><h3>🔗 LinkedIn</h3><p>Add your LinkedIn profile link here</p></div>
+</div>
+<div class="buttons"><a class="btn primary" href="mailto:your@email.com">Send Me an Email</a></div>
+</section>
+
+<footer>© 2026 Ayush • Built with passion and curiosity.</footer>
+</body>
+</html>
